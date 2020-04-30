@@ -1,0 +1,54 @@
+/*
+*******************************
+*         MAIN STYLING        *
+*******************************
+*/
+
+body * {
+  text-align: center;
+}
+
+main, header {
+  padding: 2%;
+  margin-bottom: 2%;
+  border: 2px solid #3D4849;
+}
+
+form {
+  border: 1px solid black;
+  padding-bottom: 20px;
+}
+
+/*
+*******************************
+*         BOX STYLING         *
+*******************************
+*/
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.col {
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/*
+*******************************
+*         OTHER STYLING       *
+*******************************
+*/
+
+
+.warning {
+  color: #DD0000;
+}
